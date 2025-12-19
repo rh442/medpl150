@@ -9,6 +9,11 @@
     height: 100vh;
 
 }
+img{
+    height: 300px;
+    margin-bottom: 0px;
+   
+}
 .button{
     background-color: white;
     border-radius: 5px;
@@ -25,13 +30,12 @@ a{
 .choice{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    
+    
+}
 
-}
-.choice a{
-    margin: 80px;
-}
 .thoughts{
     color:darkblue;
 }
