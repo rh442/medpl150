@@ -1,5 +1,14 @@
-.IS_Center{
-    justify-content: center;
-    align-items: center;
-    background-color: red;
+.Title{
+    text-align: center ;
+}
+.PS{
+    display: flex;
+    flex-direction: row;
+}
+.CStatement{
+    border: solid 5px black;
+}
+.ref,.links{
+    margin-top: 5px;
+    border: solid 5px black;
 }
